@@ -1,0 +1,54 @@
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-content: center;
+    font-family: Roboto;
+    background-color: #1f2937;
+    color: #e5e7eb;
+
+
+    border: 2px solid black;
+}
+
+.left-header-logo {
+    font-weight: 900;
+    font-size: 24px;
+    color: #f9faf8;
+    padding: 0 0 0 10px;
+    align-content: center;
+        border: 2px solid black;
+}
+
+.right-links {
+    padding: 0 10px 0 0;
+    align-content: center;
+        border: 2px solid black;
+}
+
+ul {
+    list-style-type: none;
+        /* border: 2px solid black; */
+}
+
+.header-link {
+    text-decoration: none;
+    color: #e5e7eb;
+    padding: 0 10px;
+}
+
+.hero-container{
+    display: flex;
+    background-color:  #1f2937;
+}
+
+.hero-main{
+    font-size: 48px;
+    color: #f9faf8;
+    font-weight: 900;
+}
+
+.hero-secondary {
+    font-size: 18px;
+    color: #e5e7eb;
+}
+
