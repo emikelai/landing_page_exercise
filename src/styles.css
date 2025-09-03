@@ -75,3 +75,47 @@ ul {
 .right-hero {
     /* padding: 0 100px 0 0; */
 }
+
+.title {
+        /* border: 2px solid red; */
+    font-size: 36px;
+    font-weight: 900;
+    color: #1f2937;
+    text-align: center;
+    margin: 20px;
+}
+
+.fourboxcontainer {
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+    text-align: center;
+    text-wrap: wrap;
+    margin: 50px;
+}
+
+.figure {
+    border-radius: 10%;
+}
+
+.picandtext {
+    /* border: 2px solid red; */
+    /* max-width: 200px; */
+    /* justify-content: center; */
+}
+
+.quote {
+    font-size: 36px;
+    font-weight: lighter;
+    font-style: italic;
+    color: #1f2937;
+    background-color: #e5e7eb;
+    padding: 50px 200px;
+}
+
+.author {
+    font-style:normal;
+    font-size: 24px;
+    font-weight: bold;
+    text-align: right;
+}
