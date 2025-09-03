@@ -115,7 +115,38 @@ ul {
 
 .author {
     font-style:normal;
-    font-size: 24px;
+    font-size: 36px;
     font-weight: bold;
     text-align: right;
+}
+
+.calltoaction {
+    display: flex;
+    justify-content: space-between;
+    background-color: #3882f6;
+    color: #f9faf8;
+
+    margin: 100px;
+    padding: 50px 100px;
+    border-radius: 10px;
+}
+.actiontitle {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+button.signup {
+    background: #3882f6;
+    border: 1px solid white;
+    color: white;
+    border-radius: 10px;
+    padding: 0px 30px;
+
+}
+
+.footer{
+    text-align: center;
+    color: #f9faf8;
+    background-color: #1f2937;
+    padding: 20px;
 }
